@@ -3,10 +3,10 @@ layout: post
 title: "1장 스프링부트 - 소개"
 date: 2020-08-05
 author: jmssun
-categories: Spring Boot2
+categories: SpringBoot2
 ---
 
-## 스프링부트2
+## 스프링부트2 소개
 
 스프링부트는 프레임워크를 확장해 자동 구성을 가능하게 한다
 
@@ -40,8 +40,6 @@ pom.xml에 spring-boot-starter-test 라는 추가 의존성이 있는데 테스�
         </plugin>
     </plugins>
 </build>
-
-
 ```
 
 이 플러그인은 최종 jar파일을 생성하는데 사용된다. 
