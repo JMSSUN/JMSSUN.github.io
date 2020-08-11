@@ -162,7 +162,7 @@ logging.file.max-history (기본값은 0, 무제한)
 logging.file.max-size (기본값 10MB)
 ```
 
-#####기존 설정 재사용
+##### 기존 설정 재사용
 기존의 설정을 가져오려면 @Import 또는 @ImportResource 애노테이션을 @Configuration 또는 @SpringBootApplication 애노테이션이 붙은 클래스를 추가한다.
 
 
