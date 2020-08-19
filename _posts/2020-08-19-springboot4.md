@@ -46,7 +46,8 @@ http와 다르게 완벽한 신을 제공
 
 - STOMP : 텍스트 기반의 매우 간단한 프로토콜, TCP나 웹 소켓 같은 신뢰할 수 있는 양방향 네트워크 프로토콜에서 사용이 가능
  [https://hwiveloper.dev/2019/01/10/spring-boot-stomp-websocket/](https://hwiveloper.dev/2019/01/10/spring-boot-stomp-websocket/ttp://)
-
+- 메시지를 수신받기 위해 @Controller 메소드에 @MessageMapping 애노테이션을 추가해 메시지를 수신할 목적지가 어딘지 알려줌
+- @EnableWebSocketMessageBroker : 웹소켓을 통해 메시징을 사용할 수 있도록 함
 
 
 
